@@ -1,15 +1,15 @@
 # KakaoPlusFriend
 
-[![CI Status](https://img.shields.io/travis/Wonyoung Ju/KakaoPlusFriend.svg?style=flat)](https://travis-ci.org/Wonyoung Ju/KakaoPlusFriend)
+[![CI Status](https://img.shields.io/travis/getogrand/KakaoPlusFriend.svg?style=flat)](https://travis-ci.org/getogrand/KakaoPlusFriend)
 [![Version](https://img.shields.io/cocoapods/v/KakaoPlusFriend.svg?style=flat)](https://cocoapods.org/pods/KakaoPlusFriend)
 [![License](https://img.shields.io/cocoapods/l/KakaoPlusFriend.svg?style=flat)](https://cocoapods.org/pods/KakaoPlusFriend)
 [![Platform](https://img.shields.io/cocoapods/p/KakaoPlusFriend.svg?style=flat)](https://cocoapods.org/pods/KakaoPlusFriend)
 
-## Example
+This is a binary framework wrapped pod for using KakaoPlusFriend framework with CocoaPods.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+There is `KakaoOpenSDK` pod, but doesn't come with `KakaoPlusFriend.framework`.
 
-## Requirements
+So, use this.
 
 ## Installation
 
@@ -23,7 +23,3 @@ pod 'KakaoPlusFriend'
 ## Author
 
 Wonyoung Ju, getogrand@gmail.com
-
-## License
-
-KakaoPlusFriend is available under the MIT license. See the LICENSE file for more info.

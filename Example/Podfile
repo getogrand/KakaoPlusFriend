@@ -1,6 +1,0 @@
-use_frameworks!
-target 'KakaoPlusFriend_Tests' do
-  pod 'KakaoPlusFriend', :path => '../'
-  
-  
-end

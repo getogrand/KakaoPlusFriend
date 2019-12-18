@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KakaoPlusFriend'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KakaoPlusFriend.'
+  s.version          = '1.19.1'
+  s.summary          = 'A pod for using KakaoPlusFriend framework with CocoaPods'
+  s.license          = 'Apache'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +19,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A pod for using KakaoPlusFriend framework with CocoaPods.
                        DESC
 
-  s.homepage         = 'https://github.com/Wonyoung Ju/KakaoPlusFriend'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/getogrand/KakaoPlusFriend'
   s.author           = { 'Wonyoung Ju' => 'getogrand@gmail.com' }
-  s.source           = { :git => 'https://github.com/Wonyoung Ju/KakaoPlusFriend.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/getogrand/KakaoPlusFriend.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KakaoPlusFriend/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KakaoPlusFriend' => ['KakaoPlusFriend/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'KakaoPlusFriend.framework'
+  s.dependency 'KakaoOpenSDK', '~> 1.19.1'
 end
